@@ -31,12 +31,16 @@ if(ANDROID)
     main.cpp
     mainwindow.cpp
     mainwindow.h
+    playfield.cpp
+    playfield.h
   )
 else()
   add_executable(luna
     main.cpp
     mainwindow.cpp
     mainwindow.h
+    playfield.cpp
+    playfield.h
   )
 endif()
 
